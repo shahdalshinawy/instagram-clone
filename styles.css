@@ -1,0 +1,138 @@
+body {
+    background-color: rgb(248, 247, 246);
+}
+
+.instalogo {
+    width: 100px;
+    margin: 20px;
+
+}
+
+#leftside {
+    border-radius: 3px;
+    width: 233px;
+    height:1000px;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    border: 0.5px solid rgba(224, 219, 218, 0.623);
+    vertical-align: middle;
+}
+#leftside img{
+    vertical-align: bottom;
+}
+#leftside a{
+    text-decoration: none;
+
+
+}
+.icon {
+    width: 30px;
+    margin: 40px;
+    transition: 0.3s;
+}
+
+.story {
+    width: 60px;
+    border: solid 3px rgb(244, 50, 157);
+    margin-top: 7px;
+    margin-left: 14px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+
+}
+#story{
+    text-align:center;
+    margin-right: 230px;
+}
+.story:hover {
+    color: rgba(244, 50, 157, 0.175);
+
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+#middleside {
+
+    border-radius: 7px;
+    height: 100px;
+    width: 435px;
+    margin-left: 424px;
+    background-color: rgb(255, 255, 255);
+    border: 0.5px solid white;
+    position: absolute;
+    z-index: -1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+.middleside-div img{
+    cursor: pointer;
+}
+/* 
+#RRside {
+    border-radius: 3px;
+    width: 233px;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    border: 0.5px solid rgba(224, 219, 218, 0.623);
+} */
+
+#middleside:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+#rightside {
+    position: fixed;
+    border-radius: 7px;
+    height: 50px;
+    width: 350px;
+    margin-left: 950px;
+    padding-bottom: 1100px;
+
+}
+
+#leftside:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.storyName {
+    font-size: 11px;
+    font-family: system-ui;
+    color: rgb(68, 66, 66);
+    margin-left: 15px;
+    margin-bottom: 8px;
+    margin-top: 10px;
+}
+.cardscontainer{
+    margin-left:190px
+}
+.cards {
+    border-radius: 7px;
+    height: 700px;
+    width: 435px;
+   margin-left: 235px;
+   background-color: rgb(255, 255, 255);
+    border: 0.5px solid rgba(224, 219, 218, 0.623);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.icon:hover {
+    color: rgb(244, 50, 157);
+
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cards:hover {
+    box-shadow: 0 8px 16px 0 whi;
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.instalogo:hover {
+    color: rgb(244, 50, 157);
+}
+.cardheader{
+    background-color: #fff;
+}
